@@ -1,0 +1,11 @@
+[project]
+name = "rllib-experimentation"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "gymnasium[accept-rom-license,atari,mujoco]>=1.0.0",
+    "ray[rllib]>=2.48.0",
+    "torch>=2.8.0",
+]
